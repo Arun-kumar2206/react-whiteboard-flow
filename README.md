@@ -2,14 +2,18 @@
 
 A React component for a whiteboard with drawing, erasing, and JavaScript code-to-flowchart visualization.
 
-## Features
+![npm](https://img.shields.io/npm/v/react-whiteboard-flow)
+![license](https://img.shields.io/npm/l/react-whiteboard-flow)
+![issues](https://img.shields.io/github/issues/Arun-kumar2206/react-whiteboard-flow)
 
-- Freehand drawing (pencil)
-- Erasing
-- Canvas reset
-- Convert JavaScript code to a flowchart and display it on the canvas
+## ✨ Features
 
-## Installation
+- ✏️ Freehand drawing with pencil tool
+- 🧽 Erasing tool
+- 🔄 Canvas reset
+- 🧠 Convert JavaScript code to a flowchart using `js2flowchart`
+
+## 📦 Installation
 
 ```
 npm install react-whiteboard-flow
@@ -71,12 +75,13 @@ export default App;
 - `code` (string): JavaScript code to visualize as a flowchart
 - `className` (string): CSS class for the canvas
 
-## Controls
+## 🕹️ Controls
 
-- **Pencil**: Draw on the canvas
-- **Eraser**: Erase parts of the drawing
-- **Reset**: Clear the canvas
-- **Flowchart**: Toggle between the drawing and the flowchart generated from the provided JS code
+- ✏️ **Pencil** – Draw freely on the canvas using the mouse
+- 🧽 **Eraser** – Erase selected parts of your drawing
+- 🧹 **Reset** – Clear the entire canvas
+- 🧠 **Flowchart** – Generate and toggle a flowchart from the provided JavaScript code
+
 
 ## Contributing
 
