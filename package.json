@@ -1,0 +1,53 @@
+{
+  "name": "react-whiteboard-flow",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "react",
+    "whiteboard",
+    "drawing",
+    "flowchart",
+    "js2flowchart",
+    "canvas",
+    "visualization",
+    "react-component",
+    "sketch",
+    "eraser",
+    "pencil",
+    "reset",
+    "javascript"
+  ],
+  "author": "arun kumar <arunveguru2005@gmail.com>",
+  "license": "MIT",
+  "description": "A React component for a whiteboard with drawing, erasing, and JS code-to-flowchart visualization.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arun-kumar2206/react-whiteboard-flow.git"
+  },
+  "homepage": "https://github.com/Arun-kumar2206",
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-url": "^8.0.2",
+    "babel-preset-react": "^6.24.1",
+    "rollup": "^2.79.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "js2flowchart": "^1.3.5"
+    }
+}
